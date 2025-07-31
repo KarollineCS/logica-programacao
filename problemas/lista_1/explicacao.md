@@ -52,7 +52,7 @@ Este programa realiza a soma de dois números reais definidos diretamente no có
 
 Este exercício não exige interação com o usuário.
 
-Arquivo relacionado: `soma.cpp`
+Arquivo relacionado: `questão_4.cpp`
 
 ---
 
@@ -68,6 +68,6 @@ Diferente do exercício anterior, este programa solicita que o usuário insira d
 
 Este exercício introduz o conceito de entrada interativa no programa.
 
-Arquivo relacionado: `soma2.cpp`
+Arquivo relacionado: `questão_5.cpp`
 
 ---
