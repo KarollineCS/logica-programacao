@@ -11,7 +11,7 @@ Cada exercício contém:
 
 Os problemas estão divididos em pastas na pasta `problemas/`. Em cada pasta, você encontrará:
 - `enunciado.md` – descrição do exercício
-- `resolucao.py` – código desenvolvido
+- `resolucao.cpp` – código desenvolvido
 - `explicacao.md` – raciocínio da solução
 
 ## 🚀 Tecnologias
