@@ -1,6 +1,6 @@
 /*
     Ex: Lista 1 (ECOI02.1)
-    Aluna: Karolline Carvalho Silva RA: 2020026008
+    Aluna: Karolline Carvalho Silva
 */
 #include <iostream>
 using namespace std;
