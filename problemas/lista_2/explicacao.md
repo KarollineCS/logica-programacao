@@ -66,6 +66,10 @@ Ambos os valores são definidos com base em faixas do custo de fábrica:
 3. Soma os valores para determinar o preço final ao consumidor.
 4. Exibe cada valor e o total no terminal.
 
+## 📊 Fluxograma
+
+![Fluxograma do Problema](./fluxograma.png)
+
 Arquivo relacionado: `questao_3.cpp`
 
 ---
