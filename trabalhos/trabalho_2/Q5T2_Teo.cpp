@@ -1,6 +1,6 @@
 /*
-    Ex: Questão 5 - Trabalho 2 TEÓRICA
-    Aluna: Karolline Carvalho Silva RA: 2020026008
+    Ex: QuestÃ£o 5 - Trabalho 2 TEÃ“RICA
+    Aluna: Karolline Carvalho Silva
 */
 #include <iostream>
 #include <string>
@@ -13,8 +13,8 @@ main(){
 	char op;
 
     do{
-        cout << "\n---CRIPTOGRAFIA DE JÚLIO CÉSAR---\n" << endl;
-        cout << "Para começar, escolha um número para ser utilizado como frequência de troca: " << endl;
+        cout << "\n---CRIPTOGRAFIA DE JÃšLIO CÃ‰SAR---\n" << endl;
+        cout << "Para comeÃ§ar, escolha um nÃºmero para ser utilizado como frequÃªncia de troca: " << endl;
         cin  >> k;
 
         string palavra;
@@ -45,3 +45,4 @@ main(){
 
 	return 0;
 }
+
