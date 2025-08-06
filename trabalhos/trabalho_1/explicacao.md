@@ -11,7 +11,9 @@ O programa permite ao usuário escolher entre duas conversões:
 - **Celsius para Fahrenheit**: aplica a fórmula `F = (9 * C / 5) + 32`
 - **Fahrenheit para Celsius**: aplica a fórmula `C = 5 * (F - 32) / 9`
 
-Fluxograma: 
+## 📊 Fluxograma
+
+![Fluxograma do Problema 1](./fluxograma1.png)
 
 ### Lógica aplicada:
 1. Um menu é exibido com as duas opções.
@@ -28,7 +30,9 @@ Arquivo: `tb_questão_1.cpp`
 
 O programa simula um caixa eletrônico que fornece apenas notas de 100, 10 e 5 unidades. Dado um valor a ser sacado, o programa calcula o **menor número possível de notas** de cada tipo.
 
-Fluxograma:
+## 📊 Fluxograma
+
+![Fluxograma do Problema 2](./fluxograma2.png)
 
 ### Lógica aplicada:
 1. Recebe o valor desejado pelo usuário.
@@ -44,7 +48,9 @@ Arquivo: `tb_questão_2.cpp`
 
 O programa lê um número inteiro positivo e imprime todos os seus **divisores exatos**, ou seja, aqueles que resultam em divisão sem resto.
 
-Fluxograma: 
+## 📊 Fluxograma
+
+![Fluxograma do Problema 3](./fluxograma3.png)
 
 ### Lógica aplicada:
 1. Solicita um número inteiro maior que zero.
