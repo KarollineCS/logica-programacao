@@ -9,7 +9,7 @@ Cada exercício contém:
 
 ## 📂 Organização
 
-Os problemas estão divididos em pastas na pasta `problemas/`. Em cada pasta, você encontrará:
+Os problemas estão divididos em pastas na pasta `problemas/` e os trabalhos também estão divididos em pastas na pasta `trabalhos/`. Em cada pasta, você encontrará:
 - `enunciado.md` – descrição do exercício
 - `resolucao.cpp` – código desenvolvido
 - `explicacao.md` – raciocínio da solução
