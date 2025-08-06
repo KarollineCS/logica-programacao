@@ -1,6 +1,6 @@
 /*
-    Ex: Quest„o 2 - Trabalho 2 TE”RICA
-    Aluna: Karolline Carvalho Silva RA: 2020026008
+    Ex: Quest√£o 2 - Trabalho 2 TE√ìRICA
+    Aluna: Karolline Carvalho Silva
 */
 #include <iostream>
 using namespace std;
@@ -15,7 +15,7 @@ void lervet(float vet[], int num)
     }
 }
 
-//Impress„o do vetor
+//Impress√£o do vetor
 void imprimevet(float vet[], int num)
 {
     cout << "v[" << num << "] = ";
@@ -25,7 +25,7 @@ void imprimevet(float vet[], int num)
     cout << endl;
 }
 
-//OrdenaÁ„o crescente do vetor
+//Ordena√ß√£o crescente do vetor
 void ordenavet(float vet[], int num)
 {
     int i, j;
@@ -78,3 +78,4 @@ main(){
 
 	return 0;
 }
+
