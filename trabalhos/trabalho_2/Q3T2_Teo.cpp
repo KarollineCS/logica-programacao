@@ -1,6 +1,6 @@
 /*
-    Ex: Quest„o 3 - Trabalho 2 TE”RICA
-    Aluna: Karolline Carvalho Silva RA: 2020026008
+    Ex: Quest√£o 3 - Trabalho 2 TE√ìRICA
+    Aluna: Karolline Carvalho Silva 
 */
 #include <iostream>
 using namespace std;
@@ -14,7 +14,7 @@ main(){
         cout << "Entre com o tamanho da matriz(linha e coluna)" << endl;
         cin  >> m >> n;
 
-        //VerificaÁ„o da entrada do usu·rio
+        //Verifica√ß√£o da entrada do usu√°rio
         while(m <= 0 || n <= 0){
             cout << "A matriz precisa ter um tamanho, insira valores maiores que zero!" << endl;
             cin  >> m >> n;
@@ -43,7 +43,7 @@ main(){
 
         system("cls");
 
-        //SaÌda das matrizes
+        //Sa√≠da das matrizes
         int vetA[m] = {};
         cout << "Matriz A: " << endl;
         for(i = 0; i < m; i++){
@@ -65,10 +65,10 @@ main(){
             cout << endl;
         }
 
-        //MultiplicaÁ„o das matrizes
+        //Multiplica√ß√£o das matrizes
         cout << endl;
         int C[m][n], soma = 0;
-        cout << "MultiplicaÁ„o de A*B: " << endl;
+        cout << "Multiplica√ß√£o de A*B: " << endl;
         for(i = 0; i < m; i++){
             for(j = 0; j < n; j++){
                 soma += vetA[i]*vetB[j];
@@ -87,3 +87,4 @@ main(){
 
 	return 0;
 }
+
