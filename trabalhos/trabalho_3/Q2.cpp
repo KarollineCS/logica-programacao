@@ -1,5 +1,5 @@
 /*
-    Ex: Questão 2 - TRABALHO 3 TEÓRICA
+    Ex: QuestÃ£o 2 - TRABALHO 3 TEÃ“RICA
     Aluna: Karolline Carvalho
 */
 #include <iostream>
@@ -15,7 +15,7 @@ main(){
 	if(arquivo.is_open()){
         cout << "Arquivo acessado" << endl;
 
-        //Lendo e armazenando o conteúdo do arquivo
+        //Lendo e armazenando o conteÃºdo do arquivo
         int lin;
         arquivo >> lin;
 
@@ -42,10 +42,10 @@ main(){
             int k;
             int vet_chega[col] = {}, vet_sai[lin] = {};
             cout << "Verifique quantas estradas saem e chegam a uma cidade" << endl;
-            cout << "Digite o número da cidade que deseja pesquisar: " << endl;
+            cout << "Digite o nÃºmero da cidade que deseja pesquisar: " << endl;
             cin  >> k;
             while(k < 0 || k > l){
-                cout << "Por favor, insira um número que esteja no intervalo de 0 e " << lin << endl;
+                cout << "Por favor, insira um nÃºmero que esteja no intervalo de 0 e " << lin << endl;
                 cin  >> k;
             }
 
@@ -58,7 +58,7 @@ main(){
             cout << k << " possui " << vet_sai[k] << " estradas saindo e " << vet_chega[k] << " estradas chegando." << endl;
             cout << endl;
 
-            //(LETRA B)Verifica em qual cidade chega o maior número de estradas
+            //(LETRA B)Verifica em qual cidade chega o maior nÃºmero de estradas
             int maior = vet_chega[0];
             int id_maior = 0;
             for (int i = 0; i < lin; i++){
@@ -67,21 +67,21 @@ main(){
                     id_maior = i;
                 }
             }
-            cout << "A cidade que mais chega estradas é: " << id_maior << endl;
+            cout << "A cidade que mais chega estradas Ã©: " << id_maior << endl;
             cout << endl;
 
-            //(LETRA C)Verifica se k tem ligação de ida e volta com as outras cidades
-            cout << "Digite o número da cidade que deseja verificar se há ligação com as outras: " << endl;
+            //(LETRA C)Verifica se k tem ligaÃ§Ã£o de ida e volta com as outras cidades
+            cout << "Digite o nÃºmero da cidade que deseja verificar se hÃ¡ ligaÃ§Ã£o com as outras: " << endl;
             cin  >> k;
             while(k < 0 || k > l){
-                cout << "Por favor, insira um número que esteja no intervalo de 0 e " << lin << endl;
+                cout << "Por favor, insira um nÃºmero que esteja no intervalo de 0 e " << lin << endl;
                 cin  >> k;
             }
             for(int i = 0; i < lin; i++){
                 for(int j = 0; j < col; j++){
                     if(i == j && k != i){
                         if(mat[k][j] == 1 && mat[i][k] == 1){
-                            cout << k << " faz ligação de ida e volta com " << i << endl;
+                            cout << k << " faz ligaÃ§Ã£o de ida e volta com " << i << endl;
                         }
                     }
                 }
@@ -91,14 +91,14 @@ main(){
             //(LETRA D)Roteiro de viagem
             /*
             int m;
-            cout << "Por quantas cidades você deseja passar?" << endl;
+            cout << "Por quantas cidades vocÃª deseja passar?" << endl;
             cin  >> m;
             int viagem[m];
             cout << "Digite por quais cidades deseja passar: " << endl;
             for(int i = 0; i < m; i++){
                 cin >> viagem[i];
                 if(viagem[i] < 0 || viagem[i] > lin){
-                    cout << "Esta cidade não exite, digite novamente!" << endl;
+                    cout << "Esta cidade nÃ£o exite, digite novamente!" << endl;
                     cin  >> viagem[i];
                 }
             }
@@ -112,10 +112,10 @@ main(){
             /*
             //(LETRA E)Pesquisa de duas viagens
             int p;
-            cout << "De qual cidade você irá sair?" << endl;
+            cout << "De qual cidade vocÃª irÃ¡ sair?" << endl;
             cin  >> k;
             //k == i
-            cout << "Para qual cidade irá?" << endl;
+            cout << "Para qual cidade irÃ¡?" << endl;
             cin  >> p;
             //p == j
             for(int i = k; i <= p; i++){
@@ -135,7 +135,7 @@ main(){
         arquivo.close();
         return 0;
 	}else{
-	    cout << "Não foi possível acessar o arquivo" << endl;
+	    cout << "NÃ£o foi possÃ­vel acessar o arquivo" << endl;
 	    return 1;
 	}
 
