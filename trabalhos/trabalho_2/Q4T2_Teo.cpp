@@ -1,6 +1,6 @@
 /*
-    Ex: Questão 4 - Trabalho 2 TEÓRICA
-    Aluna: Karolline Carvalho Silva RA: 2020026008
+    Ex: QuestÃ£o 4 - Trabalho 2 TEÃ“RICA
+    Aluna: Karolline Carvalho Silva
 */
 #include <iostream>
 #define n 3
@@ -16,11 +16,11 @@ main(){
 	char op;
 	Coordenada c[n];
 
-	cout << "\n---VERIFICANDO SE UM PONTO ESTÁ DENTRO DE UM RETÂNGULO---\n" << endl;
+	cout << "\n---VERIFICANDO SE UM PONTO ESTÃ DENTRO DE UM RETÃ‚NGULO---\n" << endl;
 
 	do{
         //Leitura do V1
-        cout << "Entre com o vértice inferior esquerdo do retângulo" << endl;
+        cout << "Entre com o vÃ©rtice inferior esquerdo do retÃ¢ngulo" << endl;
         cout << "x: ";
         cin  >> c[0].x;
         cout << "y: ";
@@ -28,16 +28,16 @@ main(){
         cout << endl;
 
         //Leitura do V2
-        cout << "Entre com o vértice superior direito do retângulo" << endl;
+        cout << "Entre com o vÃ©rtice superior direito do retÃ¢ngulo" << endl;
         cout << "x: ";
         cin  >> c[1].x;
         cout << "y: ";
         cin  >> c[1].y;
 
-        //Verifica condição do segundo vértice
+        //Verifica condiÃ§Ã£o do segundo vÃ©rtice
         while(c[1].x <= c[0].x || c[1].y <= c[0].y){
             cout << endl;
-            cout << "Nós estamos montando um retângulo, o vértice superior precisa ser maior que o inferior!" << endl
+            cout << "NÃ³s estamos montando um retÃ¢ngulo, o vÃ©rtice superior precisa ser maior que o inferior!" << endl
                  << "Insira os valores corretamente: " << endl;
             cout << "x: ";
             cin  >> c[1].x;
@@ -54,12 +54,12 @@ main(){
         cin  >> c[2].y;
         cout << endl;
 
-        //Verificação do ponto P
+        //VerificaÃ§Ã£o do ponto P
         if((c[2].x >= c[0].x) && (c[2].y >= c[0].y)){
             if((c[2].x <= c[1].x) && (c[2].y <= c[1].y))
-                cout << "O ponto (" << c[2].x << "," << c[2].y << ") está dentro do retângulo" << endl;
+                cout << "O ponto (" << c[2].x << "," << c[2].y << ") estÃ¡ dentro do retÃ¢ngulo" << endl;
         }else
-            cout << "O ponto (" << c[2].x << "," << c[2].y << ") não está dentro do retângulo" << endl;
+            cout << "O ponto (" << c[2].x << "," << c[2].y << ") nÃ£o estÃ¡ dentro do retÃ¢ngulo" << endl;
 
         cout << endl;
         cout << "Deseja continuar?" << endl;
@@ -70,3 +70,4 @@ main(){
 
 	return 0;
 }
+
